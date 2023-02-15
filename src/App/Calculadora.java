@@ -2,17 +2,12 @@
  * 
  */
 package App;
-
-/**
- * @author Juan Simón
- *
- */
+//JOSÉ JIMÉNEZ AGUILAR
 public class Calculadora {
 	
 	public Calculadora(){
         
     }
-    
     public int suma(int num1,int num2){
         return num1+num2;
     }
@@ -29,7 +24,6 @@ public class Calculadora {
         if (num2==0) throw new ArithmeticException("NO PUEDES DIVIDIR POR CERO, MELON");
         return num1/num2;
     }
-
 	private int valor1;
 	private int valor2;
 }
